@@ -1,0 +1,34 @@
+{
+  "default" :{
+
+    "formatOptions": {
+        "snippetInterface": "async-await"
+    },
+
+      "paths" :[
+            "src/test/features/*.feature"
+        
+    ],
+    "require":[
+                  "src/test/step_definitions/*js"
+    ],
+
+    "format" : [
+      "progress-bar",
+      "html:report/cucumber-report.html",
+      "json:report/cucumber-report.json",
+
+      ["rerun",
+      "@rerun.txt"]
+    ],
+
+    "parallel" :2,
+    "retry":1
+
+
+    }
+
+  
+
+
+}

@@ -1,0 +1,400 @@
+[
+  {
+    "description": "  As a user of the website\n  I want to receive appropriate error messages\n  So that I know when I have not filled out the form correctly",
+    "elements": [
+      {
+        "description": "",
+        "id": "contact-form-functionality;submitting-a-contact-form-with-valid-details",
+        "keyword": "Scenario Outline",
+        "line": 20,
+        "name": "Submitting a contact form with valid details",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 410645099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user navigates to the Contact page",
+            "match": {
+              "location": "src\\test\\step_definitions\\contactform.steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9012999899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "the user fills in the Name field with \"Mark Stw\"",
+            "match": {
+              "location": "src\\test\\step_definitions\\contactform.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 87825399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the user fills in the Email field with \"mark.stw@gmail.com\"",
+            "match": {
+              "location": "src\\test\\step_definitions\\contactform.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26382399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the user fills in the Phone field with \"07435493973\"",
+            "match": {
+              "location": "src\\test\\step_definitions\\contactform.steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25108900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "the user fills in the Subject field with \"Inquiry\"",
+            "match": {
+              "location": "src\\test\\step_definitions\\contactform.steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20947300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "the user fills in the Message field with \"I would like more information about your services.\"",
+            "match": {
+              "location": "src\\test\\step_definitions\\contactform.steps.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30250599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the user clicks the Submit button",
+            "match": {
+              "location": "src\\test\\step_definitions\\contactform.steps.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3154079400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "the user should see a confirmation message \"Thanks for getting in touch Mark Stw!\"",
+            "match": {
+              "location": "src\\test\\step_definitions\\contactform.steps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26667100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 39478999
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "contact-form-functionality;submitting-a-contact-form-with-valid-details",
+        "keyword": "Scenario Outline",
+        "line": 21,
+        "name": "Submitting a contact form with valid details",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 456351599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user navigates to the Contact page",
+            "match": {
+              "location": "src\\test\\step_definitions\\contactform.steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8435532299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "the user fills in the Name field with \"Deka D\"",
+            "match": {
+              "location": "src\\test\\step_definitions\\contactform.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59982100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the user fills in the Email field with \"deka.d@example.com\"",
+            "match": {
+              "location": "src\\test\\step_definitions\\contactform.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26631500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the user fills in the Phone field with \"07435493977\"",
+            "match": {
+              "location": "src\\test\\step_definitions\\contactform.steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23064899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "the user fills in the Subject field with \"Inquiry\"",
+            "match": {
+              "location": "src\\test\\step_definitions\\contactform.steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32593699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "the user fills in the Message field with \"Could you provide details on pricing for a single room ?\"",
+            "match": {
+              "location": "src\\test\\step_definitions\\contactform.steps.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26019199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the user clicks the Submit button",
+            "match": {
+              "location": "src\\test\\step_definitions\\contactform.steps.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3075625000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "the user should see a confirmation message \"Thanks for getting in touch Deka D!\"",
+            "match": {
+              "location": "src\\test\\step_definitions\\contactform.steps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39726600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 31744199
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "contact-form-functionality;display-error-messages-when-the-contact-form-is-submitted-with-empty-fields",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Display error messages when the contact form is submitted with empty fields",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 199676500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user navigates to the Contact page",
+            "match": {
+              "location": "src\\test\\step_definitions\\contactform.steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4732980000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "the user submits the contact form with all fields blank",
+            "match": {
+              "location": "src\\test\\step_definitions\\contactFormErrorChecks.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2098158699
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Field",
+                      "Error Message"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Phone",
+                      "Phone may not be blank"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Name",
+                      "Name may not be blank"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Subject",
+                      "Subject may not be blank"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Message",
+                      "Message must be between 20 and 2000 characters"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Message",
+                      "Message may not be blank"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Subject",
+                      "Subject must be between 5 and 100 characters"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Phone",
+                      "Phone must be between 11 and 21 characters"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Email",
+                      "Email may not be blank"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "the user should see the following error messages:",
+            "match": {
+              "location": "src\\test\\step_definitions\\contactFormErrorChecks.steps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41288200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 38992799
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "contact-form-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Contact Form Functionality",
+    "tags": [],
+    "uri": "src\\test\\features\\contactform.feature"
+  }
+]
